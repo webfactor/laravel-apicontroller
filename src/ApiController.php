@@ -1,6 +1,6 @@
 <?php
 
-namespace WFM\ApiController;
+namespace Webfactor\Laravel\ApiController;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
