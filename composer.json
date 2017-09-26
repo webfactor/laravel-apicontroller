@@ -1,0 +1,23 @@
+{
+  "name": "webfactor/laravel-apicontroller",
+  "authors": [
+    {
+      "name": "Thomas Swonke",
+      "email": "thomas.swonke@webfactor.de"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Webfactor\\ApiController\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "master"
+    }
+  },
+  "minimum-stability": "dev"
+}
