@@ -175,7 +175,7 @@ class ApiController extends Controller
             'header' => [
                 'type' => $this->responseType,
                 'message' => $this->responseMessage,
-                'code' => $this->responseStatusCode
+                'code' => $this->responseStatusCode,
             ],
         ];
 

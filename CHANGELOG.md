@@ -1,8 +1,8 @@
 # Changelog
 
-All notable changes to `:package_name` will be documented in this file
+All notable changes to `laravel-apicontroller` will be documented in this file
 
-## 1.0.3 - 2017-09-27
+## 1.0.4 - 2017-09-27
 
 - add missing basic files to root
 
