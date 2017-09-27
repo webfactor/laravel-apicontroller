@@ -20,7 +20,7 @@ class ApiController extends Controller
 
     /**
      * ApiController constructor.
-     * Automatically saves the requests body and header
+     * Automatically saves the requests body and header.
      *
      * @param Request $request
      */
@@ -59,7 +59,7 @@ class ApiController extends Controller
         return $this;
     }
 
-    protected function setResponseHttpHeader(Array $header)
+    protected function setResponseHttpHeader(array $header)
     {
         foreach ($header as $key => $value) {
             $this->responseHttpHeader[$key] = $value;
@@ -176,7 +176,7 @@ class ApiController extends Controller
                 'type' => $this->responseType,
                 'message' => $this->responseMessage,
                 'code' => $this->responseStatusCode
-            ]
+            ],
         ];
 
         if ($this->responseHeader) {
