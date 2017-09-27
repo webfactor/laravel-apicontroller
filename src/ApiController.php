@@ -56,6 +56,7 @@ class ApiController extends Controller
     protected function setResponseStatusCode($statusCode)
     {
         $this->responseStatusCode = $statusCode;
+
         return $this;
     }
 
@@ -71,24 +72,28 @@ class ApiController extends Controller
     protected function setResponseHeader($header)
     {
         $this->responseHeader = $header;
+
         return $this;
     }
 
     protected function setResponseType($responseType)
     {
         $this->responseType = $responseType;
+
         return $this;
     }
 
     protected function setResponseMessage($responseMessage)
     {
         $this->responseMessage = $responseMessage;
+
         return $this;
     }
 
     protected function setResponsePayload($data)
     {
         $this->responsePayload = $data;
+
         return $this;
     }
 
@@ -192,4 +197,3 @@ class ApiController extends Controller
         }
     }
 }
-
