@@ -17,7 +17,7 @@ You can install the package via composer:
 ## Usage
 
 ``` php
-// :todo
+// :todo write usage
 ```
 
 ## Changelog
