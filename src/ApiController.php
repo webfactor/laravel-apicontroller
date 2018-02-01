@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class ApiController extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-    
+
     private $requestBody;
     private $requestHeader;
 
