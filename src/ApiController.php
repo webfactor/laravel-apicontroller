@@ -2,11 +2,13 @@
 
 namespace Webfactor\Laravel\ApiController;
 
-use App\Http\Controllers\Controller;
+use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Http\Request;
 
-class ApiController extends Controller
+class ApiController extends BaseController
 {
+    use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+
     private $requestBody;
     private $requestHeader;
 
